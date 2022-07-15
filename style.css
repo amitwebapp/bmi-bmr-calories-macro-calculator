@@ -1,0 +1,83 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: normal;
+  margin: auto 2rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.container {
+  padding: 35px;
+  background-color: #efffe7;
+  color: #0e2900 !important;
+  border: 5px solid #efffe7;
+  border-radius: 8px;
+  box-shadow: 25px 25px 30px rgba(233, 241, 234, 0.733);
+  margin-bottom: 60px;
+}
+
+.borderLeft {
+  background-color: rgb(255, 245, 243);
+  border-left: 5px solid yellowgreen;
+  padding: 15px;
+}
+
+.result,
+.output {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.rsult-secondary,
+#btn {
+  background-color: #d9ffc6;
+  margin-left: 10px;
+  border: 5px solid #d9ffc6;
+  color: #133a00 !important;
+  padding: 8px 16px;
+  border-radius: 100px;
+  width: 100px;
+  height: 50px;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-align: center;
+}
+
+#btn,
+input,
+.blue_button {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 8px 16px;
+  background-color: #0e2900;
+  color: #d9ffc6 !important;
+  width: auto;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 8px;
+  padding: 6px;
+  color: #d9ffc6 !important;
+  border: 2px solid #0e2900;
+}
+
+.content {
+  background-color: rgb(248, 208, 208);
+  color: rgb(4, 3, 59) !important;
+  border: 5px solid #0e2900;
+  width: 60% !important;
+  padding: 16px 32px;
+}
+
+#has-border-radius {
+  padding: 3px;
+  background-color: #0e2900;
+  color: #d9ffc6 !important;
+  border: 2px solid #0e2900;
+  border-radius: 8px;
+}
